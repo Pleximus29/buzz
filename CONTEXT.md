@@ -1,6 +1,6 @@
 # Buzz domain language
 
-Shared terminology for Buzz product behavior. This glossary currently covers mobile [push suppression](#push-suppression), the [notification body](#notification-body), [mobile builds](#mobile-builds) and [sharing](#sharing); it is not a complete model of Buzz.
+Shared terminology for Buzz product behavior. This glossary currently covers mobile [push suppression](#push-suppression), the [notification body](#notification-body), [mobile builds](#mobile-builds), [sharing](#sharing) and the [open-channel directory](#open-channel-directory); it is not a complete model of Buzz.
 
 ## Notifications
 
@@ -83,3 +83,11 @@ _Avoid_: Forward, post
 A conversation offered among the share sheet's suggested destinations: an existing channel or DM, or a new Solo chat. Share targets are learned from top-level messages a person sends in a conversation; thread replies and incoming messages never count.
 
 _Avoid_: Recipient, contact, suggestion
+
+## Channels
+
+### Open-channel directory
+
+The open, listed channels of a community that a person can find and preview without being a member. Private channels, DMs and unlisted channels are never in it.
+
+_Avoid_: Channel list, public channels, discovery
